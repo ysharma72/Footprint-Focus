@@ -1,0 +1,214 @@
+/* Reset styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+header {
+    text-align: center;
+	font-size: 1.5em;
+}
+footer {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+	font-size: 0.8em;
+}
+html, body, h1, h2, p, ul, ol, li, button {
+    margin: 10;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+	background-color: rgba(255, 255, 255, 1);
+	background-image: url('earth_image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: .6 em;
+}
+#results {
+    max-width: 1500px;
+    margin: 20px auto; /* Added margin for centering */
+    padding: 10;
+}
+#input-form {
+    max-width: 800px;
+    margin: 20px auto; /* Added margin for centering */
+    padding: 10;
+
+}
+
+
+article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: black;
+    text-shadow: -1px -1px 0 #fff,  
+                 1px -1px 0 #fff,
+                 -1px 1px 0 #fff,
+                 1px 1px 0 #fff;
+}
+
+#tagline {
+	color: black;
+    text-shadow: -1px -1px 0 #fff,  
+                 1px -1px 0 #fff,
+                 -1px 1px 0 #fff,
+                 1px 1px 0 #fff;
+}
+
+#thanks {
+	color: black;
+    text-shadow: -1px -1px 0 #fff,  
+                 1px -1px 0 #fff,
+                 -1px 1px 0 #fff,
+                 1px 1px 0 #fff;
+    font-weight: bold;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.input-container {
+    margin-bottom: 20px; /* Added margin between input containers */
+}
+
+.input-container label {
+    margin-right: 10px; /* Added margin between label and input */
+}
+
+.input-container button {
+    margin-left: 10px; /* Adjusted margin for help button */
+}
+
+button[type="submit"] {
+    margin-top: 20px; /* Added margin above the submit button */
+}
+.calculator-form {
+    background-color:rgba(255, 255, 255, 0.5); 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+}
+
+.calculate-button {
+	font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; /* Adjust padding to make the button bigger */
+    font-size: 20px; /* Adjust font size to make the button bigger */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+	font-weight: bold;
+}
+
+.calculate-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+
+#fcalc {
+	background-color:rgba(255, 255, 255, 0.5); 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+
+.char {
+    background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;   
+}
+
+
+#error {
+    background-color:rgba(255, 255, 255, 0.75); 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    color: red; /* Added text color */
+    font-weight: bold;
+}
+
+.input-container input[type="checkbox"] {
+    transform: scale(1.5); /* Increase the size of the checkbox */
+    margin-right: 10px; /* Add some spacing between checkbox and label */
+}
+
+
+#results-container {
+    display: flex;
+    justify-content: space-around; /* This will space out the articles evenly */
+    align-items: flex-start; /* This aligns items to the top */
+}
+article {
+    flex: 1 1 0; /* Flex-grow, flex-shrink, and flex-basis */
+    margin: 10px; /* Optional: adds some space around each article */
+}
+.chart-container {
+    min-width: 300px; /* Minimum width of the chart container */
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.home-button {
+	font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; /* Adjust padding to make the button bigger */
+    font-size: 20px; /* Adjust font size to make the button bigger */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+	font-weight: bold;
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+.again-button {
+    display: block;
+    width: 200px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; /* Adjust font size to make the button bigger */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+    background-color: #ffffff; /* Button background color */
+    color: #000000; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+	font-weight: bold;
+    text-align: center;
+}
+
+.again-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
